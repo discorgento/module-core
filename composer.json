@@ -1,0 +1,18 @@
+{
+    "name": "discorgento/module-core",
+    "description": "Common code shared between our modules",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.2.0 <=7.4.99"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Discorgento\\Core\\": ""
+        }
+    }
+}
