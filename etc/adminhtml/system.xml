@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!-- Copyright © Caravel. All rights reserved. -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="discorgento" translate="label" class="discorgento-extensions" sortOrder="999">
+            <label>Discorgento</label>
+        </tab>
+    </system>
+</config>
