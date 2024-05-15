@@ -11,6 +11,7 @@ class Data extends AbstractHelper
     /** @var Context */
     protected $context;
 
+    // phpcs:ignore
     public function __construct(
         Context $context
     ) {
@@ -20,6 +21,7 @@ class Data extends AbstractHelper
 
     /**
      * Check if the application is in production mode
+     *
      * @return bool
      */
     public function isProductionMode()
@@ -29,6 +31,7 @@ class Data extends AbstractHelper
 
     /**
      * Check if the application is in development mode
+     *
      * @return bool
      */
     public function isDeveloperMode()
